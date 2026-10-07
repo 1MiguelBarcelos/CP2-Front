@@ -42,7 +42,7 @@
     background-color: #202832;
     background-image: url(./images/background.png);
     background-size: 100% 120%;
-    height: 750px;
+    height: 900px;
     color: #FFF;
 }
 
@@ -125,4 +125,34 @@ h1 {
     display: flex;
     justify-content: center;
 }
- 
+
+.detalhes-lista {
+    display: flex;
+    justify-content: space-between;
+
+    img {
+         width: 675px;
+        height: 675px;
+        object-fit: cover;
+        border-radius: 0 140px 0 0;
+    }
+}
+
+.detalhes-textos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 570px;
+}
+
+.detalhes-bloco h2 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.detalhes-bloco p {
+    font-size: large;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
