@@ -156,3 +156,38 @@ h1 {
     margin-bottom: 20px;
 }
 
+.rodape-lista {
+    display: flex;
+    padding-left: 100px;
+}
+ 
+.rodape-contato {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+ 
+.rodape-contato h2 {
+    font-size: 40px;
+}
+ 
+.negrito {
+    font-size: 16px;
+    font-weight: 700;
+}
+ 
+.rodape-escritorio {
+    margin: 0 94px 0 252px;
+}
+ 
+.rodape-coluna h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+ 
+.rodape-coluna p {
+    font-size: 15px;
+    line-height: 1.6;
+    color: #DBDBDB;
+}
